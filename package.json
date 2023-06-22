@@ -1,0 +1,21 @@
+{
+  "name": "phubar-theme",
+  "displayName": "phubar theme",
+  "description": "A minimal theme with pastel colors that makes programming fun.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "phubar theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/phubar theme-color-theme.json"
+      }
+    ]
+  }
+}
